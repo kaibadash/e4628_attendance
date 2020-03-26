@@ -1,0 +1,28 @@
+{
+  "name": "e4628_attendance",
+  "version": "0.0.1",
+  "description": "e4628の出退勤をコマンドラインから行う",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaibadash/e4628_attendance.git"
+  },
+  "keywords": [
+    "e4628"
+  ],
+  "author": "kaiba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaibadash/e4628_attendance/issues"
+  },
+  "homepage": "https://github.com/kaibadash/e4628_attendance#readme",
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
