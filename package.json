@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js start",
+    "end": "node dist/index.js end"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,9 @@
   },
   "homepage": "https://github.com/kaibadash/e4628_attendance#readme",
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/puppeteer": "^2.0.1",
+    "dotenv": "^8.2.0",
     "puppeteer": "^2.1.1"
   },
   "devDependencies": {
