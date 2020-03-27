@@ -16,7 +16,12 @@ function main() {
     runner.execute(
         <string>process.env.E4628_URL,
         <string>process.env.E4628_ID,
-        <string>process.env.E4628_PASSWORD);
+        <string>process.env.E4628_PASSWORD).then(() => {
+        }).catch(e => {
+            console.error(e);
+        }).finally(() => {
+            process.exit();
+        });
 }
 
 main();

@@ -1,7 +1,7 @@
 import { Base } from "./Base";
 
 export class End extends Base {
-    buttonSelector(): string {
-        return "TODO:end";
+    buttonLabel(): string {
+        return "退社";
     }
 }
