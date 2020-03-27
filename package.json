@@ -1,7 +1,7 @@
 {
   "name": "e4628_attendance",
   "version": "0.0.1",
-  "description": "e4628の出退勤をコマンドラインから行う",
+  "description": "a CLI tool for starting / ending work in e4628 with puppeteer.",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
