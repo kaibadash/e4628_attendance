@@ -1,3 +1,6 @@
+dist
+*log
+tmp/*
 node_modules
 dist
 .env
