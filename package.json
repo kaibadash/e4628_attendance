@@ -1,0 +1,34 @@
+{
+  "name": "e4628_attendance",
+  "version": "0.0.1",
+  "description": "a CLI tool for starting / ending work in e4628 with puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "node dist/index.js start",
+    "end": "node dist/index.js end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaibadash/e4628_attendance.git"
+  },
+  "keywords": [
+    "e4628"
+  ],
+  "author": "kaiba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaibadash/e4628_attendance/issues"
+  },
+  "homepage": "https://github.com/kaibadash/e4628_attendance#readme",
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/puppeteer": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
