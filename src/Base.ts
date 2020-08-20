@@ -12,6 +12,10 @@ export abstract class Base {
         }
 
         await button.click();
+        await Promise.race([
+              page.waitForNavigation({ waitUntil: "networkidle0" }),
+              page.waitForSelector(".Error")
+        ]);
     }
 
     private async login(url: string, id: string, password: string): Promise<puppeteer.Page> {
